@@ -1,5 +1,5 @@
 
-sudo ./startup.sh
+sudo -H  ./subservices/startup.sh
 cd Core
 
 
