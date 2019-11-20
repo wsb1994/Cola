@@ -1,2 +1,3 @@
-at -f ./startup.sh 22:00
+cd Core
+./Cola
 

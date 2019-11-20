@@ -9,7 +9,6 @@ int main(int argc, char **argv){
 	f.open("subreddit.txt");
 	string _location = "";
 	string _command = "";
-	f >> _location;
 while(!f.eof()){
 	//initialize to prevent weird C++ interactions
 	//this line prevents a bug where the code was reading twice. This is a hacky solution
