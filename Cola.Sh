@@ -1,3 +1,0 @@
-cd Core
-./Cola
-
