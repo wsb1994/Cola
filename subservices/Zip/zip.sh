@@ -1,15 +1,9 @@
+#!/bin/bash
 cd ..
+pwd
 cd ..
-DIRECTORY=$(pwd)
-
+pwd
 cd Images
+cd $1
 
-TIMESTAMP=$(date +'%s')
-
-FILENAME=$($!_$TIMESTAMP)
-
-zip -r $FILENAME.zip $1
-
-mv *.zip $DIRECTORY/Archive
-
-
+zip -r $1.zip * $1

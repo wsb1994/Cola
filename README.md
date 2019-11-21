@@ -12,7 +12,9 @@ Expected Questions:
 	A:
 		I wanted to create something new. I also wanted to avoid using any UK specific assignments like the Autocomplete project from 216 or the Game engine from 215, where a majority of the code was not written by myself. This is all me barring the API! I took it as an excuse to get motivated to gather data in a way that was useful to me personally. 
 
-Necessary steps to begin: 0. Run the install script with sudo -H ./install.sh
+	Why is there no make file?
+	A: this service is not finished. I Will actually use this to build a twitter bot that posts top memes about 10 days after they front page. (I know I'm the worst scum)
 
-    Confirm the script completes properly :)
-    ??? todo
+1. Run the install script.
+2. Navigate to Core and compile 
+3. Navigate to subservices/Zip and compile 

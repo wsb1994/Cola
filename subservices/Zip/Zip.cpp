@@ -38,7 +38,10 @@ for(auto i = folder_names.begin(); i != folder_names.end(); i++){
 
 
 for(auto i = folder_names.begin(); i != folder_names.end(); i++){
-	string _command = "./zip " + *i;
+	string _command = "./zip.sh " + *i;
+	
+	//inserts them into the database
+	
 	//Converting to system compatible unicode cstring
 	//zips images and processes them as zip files with 
 	//Epoch identifiers 
