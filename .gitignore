@@ -4,3 +4,5 @@
 *.swp
 *.swo
 *.zip
+Images/*
+subservices/Database/*
