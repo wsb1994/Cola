@@ -1,9 +1,9 @@
 #!/bin/bash
 
-apt install neofetch -y
+apt-get install neofetch -y
 neofetch
-apt-install at -y
-apt install gcc -y
+apt-get install at -y
+apt-get install gcc -y
 apt-get install spotify-client -y 
 apt-get install git -y
 apt-get install python3 -y
@@ -13,7 +13,9 @@ apt-get install uuidgen -y
 
 apt-get install libreoffice -y
 
-
+pip3 install argparse
+pip3 install fake_useragent
+pip3 install json
 pip3 install pandas
 pip3 install tensorflow
 pip3 install python-twitter
