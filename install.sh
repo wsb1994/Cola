@@ -1,7 +1,6 @@
 
 sudo -H  ./subservices/startup.sh
-cd subservices/Zip
-
-g++ -o Zip Zip.cpp
+(cd ./Core; ./compile.sh)
+(cd ./subservices/Zip/; ./compile.sh)
 
 
