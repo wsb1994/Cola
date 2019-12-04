@@ -30,8 +30,9 @@ int main(int argc, char **argv){
 		// runs one of two paths, concurrency or nonconcurrency based on the number of objects returned
 			if(locales.find(_location) == locales.end()){
 			
-				_command = "python3 ../API/grab_pictures.py -s " + _location + " -loc ../Images | cat >> log.txt &";
+				_command = "python3 ../API/grab_pictures.py -s " + _location + " -loc ../Images | cat >> log.txt";
 				system(_command.c_str());
+				system("echo \"subreddit parsed\"");
 				locales.insert(_location);
 }	
 }

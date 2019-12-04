@@ -15,7 +15,6 @@ apt-get install libreoffice -y
 
 pip3 install argparse
 pip3 install fake_useragent
-pip3 install json
 pip3 install pandas
 pip3 install tensorflow
 pip3 install python-twitter
