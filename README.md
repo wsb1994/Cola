@@ -12,7 +12,7 @@ Current problems I dislike:
 3. Holds on Cherry, Vanilla, and Lime cola as I want to begin work on them after the core service is clean and sparkly
 
 
-Cola downloads Images from Reddit concurrently, and provides tools to zip those files. Here is a quick overview of the current iteration on master's capability. Cherry will interface over Cola to automate this process daily at 12:00pm on a raspberry pi server. Vanilla will be the archival overlay to this code that allows a mini sqlite database to categorize them. Lime will then be an expansion to save from the google search page.
+Cola downloads Images from Reddit both non concurrently and concurrently, and provides tools to zip those files. Here is a quick overview of the current iteration on master's capability. Cherry will interface over Cola to automate this process daily at 12:00pm on a raspberry pi server. Vanilla will be the archival overlay to this code that allows a mini sqlite database to categorize them. Lime will then be an expansion to save from the google search page.
 
 1. Run the install script ./install.sh in your git directory as the super user. 
 2. Navigate to Core and compile Cola with ./compile.sh
