@@ -16,3 +16,4 @@ Cola downloads Images from Reddit both non concurrently and concurrently, and pr
 
 1. Run the install script ./install.sh in your git directory as the super user. 
 2. Run either ./Concurrent_Cola.sh or ./Sequential_Cola.sh
+3. Concurrent will finish quickly, but if you have poor system specs and a lower number of threads, youll find extreme diminishing returns with large numbers of download locations. Sequential will work just fine in that case. 
