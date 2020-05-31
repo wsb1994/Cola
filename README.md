@@ -10,3 +10,5 @@ configuration guide:
 /Core/Subreddits.txt contains a list of subreddits to scrape, line by line, one subreddit per line
 
 You can turn off piping output, but it looks super ugly and basically offers no information other than it's still running, hence it being sent to a txt file.
+
+the driver script is courtesty of Reddit-Fetch, which I have modified here somewhat. The modifications were minor tweaks to syntax between the Python3 version and the Python2 version if I'm remembering correctly. The script is otherwise identical to the one provided by that repository. It's documentation is in tact under the API folder if you wish to become familiar with how it works. It otherwise works as a black box in this project, which is ran with CRON. 
