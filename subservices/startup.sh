@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#I personally run this script on every virtual machine or desktop I use. This gets everything I will reasonably need to use
+#as part of the installation of this program.
 apt-get install neofetch -y
 neofetch
 apt-get install at -y
