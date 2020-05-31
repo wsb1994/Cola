@@ -1,3 +1,4 @@
+#change directory to the working directory and engage the script
 DIR=$(pwd)
 cd Core
 ./Kola
