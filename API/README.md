@@ -1,3 +1,5 @@
+#this program Cola brought to you by the power of reddit-fetch
+
 # reddit-fetch
 
 ## fetch-comments
